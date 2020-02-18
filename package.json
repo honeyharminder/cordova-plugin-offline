@@ -1,34 +1,27 @@
 {
-  "name": "cordova-plugin-device",
+  "name": "cordova-plugin-offline",
   "version": "2.0.4-dev",
-  "description": "Cordova Device Plugin",
-  "types": "./types/index.d.ts",
+  "description": "Cordova Offline Plugin",
   "cordova": {
-    "id": "cordova-plugin-device",
+    "id": "cordova-plugin-offline",
     "platforms": [
-      "android",
-      "ios",
-      "windows",
-      "browser",
-      "osx"
+   
+      "ios"
+
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-device"
+    "url": "https://github.com/honeyharminder/cordova-plugin-offline.git"
   },
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": "https://github.com/issues"
   },
   "keywords": [
     "cordova",
     "device",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-windows",
-    "cordova-browser",
-    "cordova-osx"
+    "cordova-ios"
+ 
   ],
   "scripts": {
     "test": "npm run eslint",
